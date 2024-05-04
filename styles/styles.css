@@ -1,0 +1,77 @@
+/* navbar styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7F2982;
+  }
+
+/* position list elements left */
+li {
+    float: left;
+}
+
+/* navbar element styling */
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: #601e63;
+}
+
+/* card styling */
+.card {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F7717D;
+    color: #16001E;
+    text-align: center;
+    box-shadow: 10px 10px #DE639A;
+}
+
+/* box sizing */
+#inputBox {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+/* color for page */
+body {
+    background-color: #F7B2B7;
+}
+
+/* footer styling */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #7F2982;
+    text-align: center;
+}
+
+/* unvisited link color */
+a:link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+/* visited link color */
+a:visited {
+    color: #f8dcde;
+    background-color: transparent;
+    text-decoration: none;
+}
